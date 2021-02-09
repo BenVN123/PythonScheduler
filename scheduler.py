@@ -3,8 +3,8 @@ import json
 import datetime
 
 invalid = "\n--Invalid response, please try again.--"
-scheduleFile = "C:/Users/Ben/Desktop/Scheduler/schedule.json"
-assignmentFile = "C:/Users/Ben/Desktop/Scheduler/assignment.json"
+scheduleFile = "schedule.json"
+assignmentFile = "assignment.json"
 
 def load():
     for i in range(0, 40):
